@@ -174,9 +174,34 @@ class Test
  ------------------
  If we defined any variable as a method parameter then it is called parameter variables. It is used to accept value from outer world.
 
- 
+ Standard object oriented approach 
+ is to write a clsses in seprate way ( to achieve reusability)
 
-         
+ // BLC (Business logic class )
+
+ class student 
+ {
+
+ }
+ // ELC (Executable Logic class)
+ class main 
+ {
+ public static void main(String args[]){
+
+ }
+ }
+
+  ** Imp 
+jiss naam ki file hai sirf ussi class ko hum public bna sakte hai(suppose i have main.java)
+public class Customer { // customer class ko hum public declared naahi krsakte    
+}
+public class main {
+public static void main (String args[]){
+
+
+}
+
+}
 
 
 */
