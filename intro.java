@@ -25,7 +25,7 @@ A class is a logical entity.
 A class is a userdefined data type  
 
 
-                           Organization
+                          Organization
                           ----------------
                           
 BlackSmith                                                       Engineer
@@ -162,6 +162,20 @@ class Test
  }
 
  deposit(4);
+
+
+ Instance varibale 
+ -----------------
+ if a non-static variable defined inside a  class but outside the function then it sid called instance variable.
+ As far as its accessibility is concerned it is accessible within the same class
+
+
+ Paremeter variable :
+ ------------------
+ If we defined any variable as a method parameter then it is called parameter variables. It is used to accept value from outer world.
+
+ 
+
          
 
 
