@@ -3,4 +3,4 @@ public class local {
         int a ;
         System.out.println(a); //  error variable a might not have been initialized
     }
-}  
+}     

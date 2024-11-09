@@ -25,7 +25,7 @@ A class is a logical entity.
 A class is a userdefined data type  
 
 
-                          Organization
+                           Organization
                           ----------------
                           
 BlackSmith                                                       Engineer
@@ -136,7 +136,7 @@ public void accept(int z // parameter  varible )
 
 }
 
-local varibales:
+local varibles:
 ----=-=-=-=-=-=-=-=
 
 A local variable must be initialized and we can,t use any kind of access modifier except final
@@ -161,49 +161,90 @@ class Test
  
  }
 
- deposit(4);
+ deposit(5000);
 
-
- Instance varibale 
- -----------------
- if a non-static variable defined inside a  class but outside the function then it sid called instance variable.
- As far as its accessibility is concerned it is accessible within the same class
-
-
- Paremeter variable :
- ------------------
- If we defined any variable as a method parameter then it is called parameter variables. It is used to accept value from outer world.
-
- Standard object oriented approach 
- is to write a clsses in seprate way ( to achieve reusability)
-
- // BLC (Business logic class )
-
- class student 
- {
+ sleep(int hrs){
 
  }
- // ELC (Executable Logic class)
- class main 
- {
- public static void main(String args[]){
 
- }
- }
-
-  ** Imp 
-jiss naam ki file hai sirf ussi class ko hum public bna sakte hai(suppose i have main.java)
-public class Customer { // customer class ko hum public declared naahi krsakte    
-}
-public class main {
-public static void main (String args[]){
+ sleep(7)
 
 
+class Test
+{
+int a; // Instance varibale 
+Static int b ; // class  variable 
+
+public void input(int c ) // c is a parameter variable 
+{
+int d = 10 ; // local variable
 }
 
 }
+        
+Instance variable :
+-------------------
+
+If a non- static variable defined inside a class but outside of a method it is called instance variable.
+It is accessibility is concerned within the same class. 
+
+Parameter variable
+------------------
+If we define any variable as a method parameter then it is called parameter variables.It is used to accept the  value from outer world
 
 
+
+
+
+how to write BLC(Business Logic Class) and ELC(Executable Logic class)
+Q Standard way of writtinga a OOPS
+Ans Write each class seprately so that it can increase reuseability 
+
+// BLC(Business Logic Class)
+class Student
+{
+}
+// ELC(Executable Logic class)
+
+class main {
+
+public static void main(String args[])
+
+{
+}
+}
+* imp same file mei sirf ek hi class ko public declare kr sakte hai sirf
+
+agar file ka naam main hai to sirf main class ko hi public krsakte hai ek file mei sirf ek hi class ko public
+decleared krakte hai
+
+// Role of instance variables at object creation
+//Whenever we create an object in java a separate copy of all the instance variable will be created
+ to getting more about go Test.java
+
+
+
+
+
+ // "This" keyword
+jb bhi programming mei instance variable and parameter variable ka naam same ho jaye to usse avoid krne ke 
+liye hum use krte hai this keyword
+this keyword always refers to the current object (agar hum program mei khi pr bhi current object ka use krna chaihe to this keyword ka use krenge)
+this keyword ko hum static member ke saath use naahi kr sakte(public static {not used this})
+refers manager.java file for this.
+can not use this in static context
+
+
+
+
+
+
+
+
+Data hiding
+-----------
+Object ki properties and behaviour direclty outer world ke through  access naahi hona chaihe
+Refers bankcustomer and main.java fot this
 */
 
 
